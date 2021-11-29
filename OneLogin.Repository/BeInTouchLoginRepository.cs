@@ -13,9 +13,9 @@ namespace OneLogin.Repository
         string AuthenticateUsingCompanyEnterpriseSSO();
     }
 
-    public class LoginRepository : ILoginRepository
+    public class BeInTouchLoginRepository : ILoginRepository
     {
-        public LoginRepository()
+        public BeInTouchLoginRepository()
         {
         }
 

@@ -17,7 +17,7 @@ namespace OneLogin.Experience
         static void Main(string[] args)
         {
             int loginMethod = AskUserLoginPreference();
-            LoginRepository repository = new LoginRepository();
+            BeInTouchLoginRepository repository = new BeInTouchLoginRepository();
             string authenticationStatus = "";
             switch (loginMethod)
             {
