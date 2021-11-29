@@ -1,4 +1,5 @@
 ﻿using System;
+using OneLogin.Repository.Abstractions;
 
 namespace OneLogin.Repository
 {

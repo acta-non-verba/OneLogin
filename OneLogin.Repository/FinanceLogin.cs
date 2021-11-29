@@ -1,3 +1,5 @@
+using OneLogin.Repository.Abstractions;
+
 namespace OneLogin.Repository
 {
     public class FinanceLogin : ILoginRepository

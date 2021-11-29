@@ -1,3 +1,4 @@
+namespace OneLogin.Repository.Abstractions{
  public interface ILoginRepository
     {
         string AuthenticateFacebookUser();
@@ -8,3 +9,4 @@
         string AuthenticateUsingAdharCard();
         string AuthenticateUsingCompanyEnterpriseSSO();
     }
+}
