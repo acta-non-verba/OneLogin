@@ -2,17 +2,6 @@
 
 namespace OneLogin.Repository
 {
-    public interface ILoginRepository
-    {
-        string AuthenticateFacebookUser();
-        string AuthenticateGoogleUser();
-        string AuthenticateLinkedInUser();
-        string AuthenticateOffice365User();
-        string AuthenticateTwitterUser();
-        string AuthenticateUsingAdharCard();
-        string AuthenticateUsingCompanyEnterpriseSSO();
-    }
-
     public class BeInTouchLoginRepository : ILoginRepository
     {
         public BeInTouchLoginRepository()
